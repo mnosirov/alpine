@@ -1,0 +1,21 @@
+// =========================== HEADER =============================
+.header {
+  position: r;
+  height: 688px;
+  background-image: url("../../img/Rectangle\ 1.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 0px) 0px;
+  background-size: 1263px,688px;
+  &__wrap {
+    @include flexStyle(center, start);
+    padding-top: 40px;
+  }
+  &__logo-link{
+    display: inline-block;
+  }
+  &__logo-img{
+    display: block;
+    width: 143px;
+    height: 59px;
+  }
+}

@@ -1,0 +1,19 @@
+%list-no-style {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+%item-no-style{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+%border {
+  width: 291px;
+  top: 570px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  box-sizing: border-box;
+  border-radius: 50px;
+}

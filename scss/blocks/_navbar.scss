@@ -1,0 +1,13 @@
+.nav {
+  &__list {
+    @extend %list-no-style;
+    @include flexStyle(flex-start, start);
+    margin-left: 60px;
+  }
+  &__item{
+    margin-left: 30px;
+  }
+  &__link {
+    @include linkStyle(none, 18px, $linkColor);
+  }
+}
