@@ -1,10 +1,10 @@
 @import "normalize";
-@import "variables";
+@import "variable";
 @import "../fonts/Segoe\ UI.ttf";
 @import "../fonts/Segoe\ UI\ Bold.ttf";
 @import "../fonts/Segoe\ UI\ Bold\ Italic.ttf";
 @import "../fonts/Segoe\ UI\ Italic.ttf";
 @import "extends";
-@import "mixins";
-@import "general";
-@import "blocks/blocks";
+@import "mixin";
+@import "genera";
+@import "blocks/block";
